@@ -5,6 +5,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'airblade/vim-gitgutter'
 Plug 'leafgarland/typescript-vim'
 Plug 'cocopon/iceberg.vim'
+Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 call plug#end()
 
 " Indent size
