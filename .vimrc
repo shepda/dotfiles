@@ -20,7 +20,7 @@ syntax on
 color iceberg
 
 " CtrlP path
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+set runtimepath^=~/.vim/plugged/ctrlp.vim
 
 " Swap file directory
 set directory=/tmp
