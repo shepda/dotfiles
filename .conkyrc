@@ -1,0 +1,31 @@
+conky.config = {
+  alignment = 'bottom_left',
+  cpu_avg_samples = 2,
+  double_buffer = true,
+  draw_shades = false,
+  extra_newline = false,
+  font = 'Ubuntu Mono Regular:size=10',
+  gap_x = 10,
+  gap_y = 50,
+  net_avg_samples = 2,
+  no_buffers = true,
+  out_to_console = false,
+  out_to_ncurses = false,
+  out_to_stderr = false,
+  own_window = true,
+  own_window_type = 'desktop',
+  own_window_transparent = true,
+  own_window_argb_visual = true,
+  own_window_argb_value = 255,
+  update_interval = 3,
+  use_xft = true
+};
+
+conky.text = [[
+  ${color fcd97b}IP${color} ${execp ~/.conky-scripts/ip-address.sh} \
+  ${color fcd97b}UPTIME${color} ${uptime} \
+  ${color fcd97b}DOCKER${color} ${execp ~/.conky-scripts/docker-status.sh} \
+  ${color fcd97b}HD${color} ${fs_free /home} / ${fs_size /home} \
+  ${color fcd97b}RAM${color} ${mem} / ${memmax} \
+  ${color fcd97b}CPU${color} ${cpu cpu0}%
+]];
