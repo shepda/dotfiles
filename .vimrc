@@ -5,6 +5,8 @@ Plug 'junegunn/seoul256.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'airblade/vim-gitgutter'
 Plug 'cocopon/iceberg.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'itchyny/vim-gitbranch'
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 call plug#end()
 
@@ -18,7 +20,15 @@ set number
 syntax on
 
 " Set theme
-color iceberg
+colorscheme iceberg
+
+" Set lightline options
+let g:lightline = {'colorscheme': 'iceberg', 'active': {'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified']]}, 'component_function': { 'gitbranch': 'gitbranch#name'}}
+
+" Remove display mode
+set noshowmode
+
+set title
 
 " Set CtrlP path
 set runtimepath^=~/.vim/bundle/ctrlp.vim
