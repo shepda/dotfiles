@@ -1,7 +1,5 @@
 " Initialise vim-plug
 call plug#begin('~/.vim/plugged')
-Plug 'tpope/vim-sensible'
-Plug 'junegunn/seoul256.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'airblade/vim-gitgutter'
 Plug 'cocopon/iceberg.vim'
@@ -17,7 +15,7 @@ set shiftwidth=2
 set number
 
 " Set syntax highlighting
-syntax on
+syntax enable
 
 " Set theme
 colorscheme iceberg
