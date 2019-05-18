@@ -14,6 +14,9 @@ set shiftwidth=2
 " Display line numbers
 set number
 
+" Show completion matches when pressing tab
+set wildmenu
+
 " Set syntax highlighting
 syntax enable
 
