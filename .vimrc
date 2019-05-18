@@ -26,8 +26,6 @@ let g:lightline = {'colorscheme': 'iceberg', 'active': {'left': [['mode', 'paste
 " Remove display mode
 set noshowmode
 
-set title
-
 " Set CtrlP path
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
