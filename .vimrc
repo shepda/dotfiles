@@ -10,6 +10,8 @@ call plug#end()
 
 " Set indent size
 set shiftwidth=2
+set tabstop=2
+set expandtab
 
 " Display line numbers
 set number
@@ -39,4 +41,9 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 
 " Set swap file directory
 set directory=/tmp
+
+" Auto close brackets
+inoremap ( ()<left>
+inoremap { {}<left>
+inoremap [ []<left>
 
