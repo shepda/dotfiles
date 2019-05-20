@@ -1,0 +1,9 @@
+URxvt.antialias: true
+URxvt.background: #000000
+URxvt.boldFont:
+URxvt.color4: RoyalBlue
+URxvt.color12: RoyalBlue
+URxvt.font: xft:Ubuntu Mono:pixelsize=15,style=regular
+URxvt.foreground: #ffffff
+URxvt.scrollBar: false
+
