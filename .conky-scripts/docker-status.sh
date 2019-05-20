@@ -3,7 +3,7 @@
 STATUS="$(service docker status | grep inactive)"
 
 if [ -n "$STATUS" ]; then
-  echo "OFF"
+  echo "Off"
 else
-  echo "ON"
+  echo "On"
 fi
