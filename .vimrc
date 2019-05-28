@@ -16,6 +16,9 @@ set expandtab
 " Display line numbers
 set number
 
+" Display the page title
+set title
+
 " Show completion matches when pressing tab
 set wildmenu
 
