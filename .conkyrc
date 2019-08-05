@@ -1,12 +1,12 @@
 conky.config = {
-  alignment = 'bottom_left',
+  alignment = 'bottom_middle',
   cpu_avg_samples = 2,
   double_buffer = true,
   draw_shades = false,
   extra_newline = false,
   font = 'Ubuntu Mono Regular:size=10',
-  gap_x = 10,
-  gap_y = 50,
+  gap_x = 0,
+  gap_y = 100,
   net_avg_samples = 2,
   no_buffers = true,
   out_to_console = false,
@@ -22,9 +22,9 @@ conky.config = {
 };
 
 conky.text = [[
-  ${color fcd97b}IP${color} ${execp ~/.conky-scripts/ip-address.sh} \
+  ${color fcd97b}IP${color} ${execp ~/Repos/dotfiles/.conky-scripts/ip-address.sh} \
   ${color fcd97b}UPTIME${color} ${uptime} \
-  ${color fcd97b}DOCKER${color} ${execp ~/.conky-scripts/docker-status.sh} \
+  ${color fcd97b}DOCKER${color} ${execp ~/Repos/dotfiles/.conky-scripts/docker-status.sh} \
   ${color fcd97b}HD${color} ${fs_free /home} / ${fs_size /home} \
   ${color fcd97b}RAM${color} ${mem} / ${memmax} \
   ${color fcd97b}CPU${color} ${cpu cpu0}%
