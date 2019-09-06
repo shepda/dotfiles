@@ -1,0 +1,34 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.twig": "html"
+  },
+  "files.autoSave": "onWindowChange",
+  "files.defaultLanguage": "markdown",
+  "files.trimTrailingWhitespace": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.external.linuxExec": "terminal",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.zoomLevel": 0,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333333"
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.feedback.visible": true,
+  "sync.gist": "322c50e7fb82288bb8e7f607430ec9d3",
+  "sync.autoUpload": true,
+  "sync.autoDownload": true,
+  "breadcrumbs.enabled": false,
+  "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+  }
