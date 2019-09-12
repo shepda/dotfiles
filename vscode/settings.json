@@ -25,7 +25,6 @@
   },
   "workbench.editor.enablePreview": false,
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.feedback.visible": true,
   "breadcrumbs.enabled": false,
   "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'"
   }
