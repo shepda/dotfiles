@@ -6,6 +6,7 @@ Plug 'cocopon/iceberg.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'scrooloose/nerdtree'
 call plug#end()
 
 " Set indent size
@@ -49,4 +50,6 @@ set directory=/tmp
 inoremap ( ()<left>
 inoremap { {}<left>
 inoremap [ []<left>
+
+map <C-n> :NERDTreeToggle<CR>
 
