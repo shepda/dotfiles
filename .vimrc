@@ -7,6 +7,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 Plug 'scrooloose/nerdtree'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 " Set indent size
@@ -46,10 +47,6 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 " Set swap file directory
 set directory=/tmp
 
-" Auto close brackets
-inoremap ( ()<left>
-inoremap { {}<left>
-inoremap [ []<left>
-
+" Set NERDTree shortcut
 map <C-n> :NERDTreeToggle<CR>
 
