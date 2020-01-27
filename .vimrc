@@ -9,6 +9,7 @@ Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
+Plug 'ntpeters/vim-better-whitespace'
 call plug#end()
 
 " Set indent size
@@ -51,3 +52,7 @@ set directory=/tmp
 " Set NERDTree keybinding
 map <C-n> :NERDTreeToggle<CR>
 
+" Set better whitespace defaults
+let g:strip_whitespace_on_save=1
+let g:strip_whitespace_confirm=0
+let g:current_line_whitespace_disabled_soft=1
