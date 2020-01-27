@@ -17,6 +17,9 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 
+" Set lines to not wrap
+set nowrap
+
 " Display line numbers
 set number
 
