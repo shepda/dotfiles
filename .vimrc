@@ -65,10 +65,10 @@ map <C-l> :Clap files<CR>
 map <C-g> :Clap grep<CR>
 
 " Set CtrlP to ignore files in .gitignore
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+let g:ctrlp_user_command=['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 " Set lightline options
-let g:lightline = {'colorscheme': 'seoul256', 'active': {'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified']]}, 'component_function': { 'gitbranch': 'gitbranch#name'}}
+let g:lightline={'colorscheme': 'seoul256', 'active': {'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified']]}, 'component_function': {'gitbranch': 'gitbranch#name'}}
 
 " Set better-whitespace defaults
 let g:strip_whitespace_on_save=1
