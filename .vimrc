@@ -13,6 +13,12 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'liuchengxu/vim-clap', {'do': ':Clap install-binary!'}
 call plug#end()
 
+" Set syntax highlighting
+syntax enable
+
+" Set theme
+colorscheme iceberg
+
 " Set indent size
 set shiftwidth=2
 set tabstop=2
@@ -36,15 +42,6 @@ set splitright
 "Open horizontal split panes to the bottom
 set splitbelow
 
-" Set syntax highlighting
-syntax enable
-
-" Set theme
-colorscheme iceberg
-
-" Set lightline options
-let g:lightline = {'colorscheme': 'seoul256', 'active': {'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified']]}, 'component_function': { 'gitbranch': 'gitbranch#name'}}
-
 " Activate lightline
 set laststatus=2
 
@@ -57,9 +54,6 @@ set shortmess+=F
 " Set CtrlP path
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
-" Set CtrlP to ignore files in .gitignore
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
-
 " Set swap file directory
 set directory=/tmp
 
@@ -69,6 +63,12 @@ map <C-n> :NERDTreeToggle<CR>
 " Set vim-clap keybindings
 map <C-l> :Clap files<CR>
 map <C-g> :Clap grep<CR>
+
+" Set CtrlP to ignore files in .gitignore
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+
+" Set lightline options
+let g:lightline = {'colorscheme': 'seoul256', 'active': {'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified']]}, 'component_function': { 'gitbranch': 'gitbranch#name'}}
 
 " Set better-whitespace defaults
 let g:strip_whitespace_on_save=1
