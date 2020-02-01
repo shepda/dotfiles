@@ -70,7 +70,7 @@ map <C-n> :NERDTreeToggle<CR>
 map <C-l> :Clap files<CR>
 map <C-g> :Clap grep<CR>
 
-" Set better whitespace defaults
+" Set better-whitespace defaults
 let g:strip_whitespace_on_save=1
 let g:strip_whitespace_confirm=0
 let g:current_line_whitespace_disabled_soft=1
