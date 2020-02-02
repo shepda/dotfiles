@@ -1,6 +1,5 @@
 " Initialise vim-plug
 call plug#begin('~/.vim/plugged')
-Plug 'sheerun/vim-polyglot'
 Plug 'airblade/vim-gitgutter'
 Plug 'cocopon/iceberg.vim'
 Plug 'itchyny/lightline.vim'
@@ -11,6 +10,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'liuchengxu/vim-clap', {'do': ':Clap install-binary!'}
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
 
 " Set syntax highlighting
