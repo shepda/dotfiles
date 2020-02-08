@@ -57,11 +57,14 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 " Set swap file directory
 set directory=/tmp
 
+" Set update delay
+set updatetime=100
+
 " Set NERDTree keybinding
-map <C-n> :NERDTreeToggle<CR>
+map <C-w> :NERDTreeToggle<CR>
 
 " Set vim-clap keybindings
-map <C-l> :Clap files<CR>
+map <C-l> :Clap files --hidden<CR>
 map <C-g> :Clap grep<CR>
 
 " Set CtrlP to ignore files in .gitignore
