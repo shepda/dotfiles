@@ -51,9 +51,6 @@ set noshowmode
 " Remove filename
 set shortmess+=F
 
-" Set CtrlP path
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-
 " Set swap file directory
 set directory=/tmp
 
@@ -64,11 +61,8 @@ set updatetime=100
 map <C-w> :NERDTreeToggle<CR>
 
 " Set vim-clap keybindings
-map <C-l> :Clap files --hidden<CR>
+map <C-p> :Clap files --hidden<CR>
 map <C-g> :Clap grep<CR>
-
-" Set CtrlP to ignore files in .gitignore
-let g:ctrlp_user_command=['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 " Set lightline options
 let g:lightline={'colorscheme': 'seoul256', 'active': {'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified']]}, 'component_function': {'gitbranch': 'gitbranch#name'}}
