@@ -5,6 +5,8 @@ Plug 'cocopon/iceberg.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'neoclide/coc-eslint'
+Plug 'neoclide/coc-tsserver'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
@@ -58,7 +60,7 @@ set directory=/tmp
 set updatetime=100
 
 " Set NERDTree keybinding
-map <C-w> :NERDTreeToggle<CR>
+map <C-l> :NERDTreeToggle<CR>
 
 " Set vim-clap keybindings
 map <C-p> :Clap files --hidden<CR>
