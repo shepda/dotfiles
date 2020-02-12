@@ -14,6 +14,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'liuchengxu/vim-clap', {'do': ':Clap install-binary!'}
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'pangloss/vim-javascript'
 call plug#end()
 
 " Set syntax highlighting
