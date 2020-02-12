@@ -22,6 +22,7 @@ syntax enable
 " Set theme
 colorscheme iceberg
 
+" Set true color
 set termguicolors
 
 " Set indent size
