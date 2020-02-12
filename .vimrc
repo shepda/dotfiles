@@ -22,6 +22,8 @@ syntax enable
 " Set theme
 colorscheme iceberg
 
+set termguicolors
+
 " Set indent size
 set shiftwidth=2
 set tabstop=2
@@ -68,7 +70,7 @@ map <C-p> :Clap files --hidden<CR>
 map <C-g> :Clap grep<CR>
 
 " Set lightline options
-let g:lightline={'colorscheme': 'seoul256', 'active': {'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified']]}, 'component_function': {'gitbranch': 'gitbranch#name'}}
+let g:lightline={'colorscheme': 'iceberg', 'active': {'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified']]}, 'component_function': {'gitbranch': 'gitbranch#name'}}
 
 " Set better-whitespace defaults
 let g:strip_whitespace_on_save=1
