@@ -80,4 +80,4 @@ let g:strip_whitespace_confirm=0
 let g:current_line_whitespace_disabled_soft=1
 
 " Set window title
-let &titlestring=expand('%:p:h')
+let &titlestring=expand('%:p:h') . " - VIM"
