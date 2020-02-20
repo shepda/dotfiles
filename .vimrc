@@ -71,6 +71,9 @@ map <C-l> :NERDTreeToggle<CR>
 map <C-p> :Clap files --hidden<CR>
 map <C-g> :Clap grep<CR>
 
+" Format json
+map <leader>jf :%!python -m json.tool<CR>
+
 " Set lightline options
 let g:lightline={'colorscheme': 'iceberg', 'active': {'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified']]}, 'component_function': {'gitbranch': 'gitbranch#name'}}
 
