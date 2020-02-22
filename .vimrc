@@ -15,6 +15,8 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'liuchengxu/vim-clap', {'do': ':Clap install-binary!'}
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'pangloss/vim-javascript'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'jremmen/vim-ripgrep'
 call plug#end()
 
 " Set syntax highlighting
@@ -68,7 +70,7 @@ set updatetime=100
 map <C-l> :NERDTreeToggle<CR>
 
 " Set vim-clap keybindings
-map <C-p> :Clap files --hidden<CR>
+"map <C-p> :Clap files --hidden<CR>
 map <C-g> :Clap grep<CR>
 
 " Format json
@@ -84,3 +86,6 @@ let g:current_line_whitespace_disabled_soft=1
 
 " Set window title
 let &titlestring=split(expand('%:p:h'), '/')[-1] . " - Vim"
+
+" Set ctrlp ignore files
+let g:ctrlp_custom_ignore='node_modules'
