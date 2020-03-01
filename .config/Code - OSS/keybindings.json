@@ -14,9 +14,5 @@
     "key": "ctrl+shift+alt+down",
     "command": "-editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+v ctrl+s",
-    "command": "workbench.action.splitEditorRight"
   }
 ]
