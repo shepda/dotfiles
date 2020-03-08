@@ -26,7 +26,7 @@ syntax enable
 colorscheme iceberg
 
 " Set true color
-set termguicolors
+" set termguicolors
 
 " Set indent size
 set shiftwidth=2
