@@ -22,15 +22,15 @@ conky.config = {
 };
 
 conky.text = [[
-  ${color 333333}IP${color}  ${color 666666}${execp ~/Repos/dotfiles/.conky-scripts/ip-address.sh}${color}
+  ${color 666666}IP${color}  ${color 999999}${execp ~/Repos/dotfiles/.conky-scripts/ip-address.sh}${color}
 
-  ${color 333333}UPTIME${color}  ${color 666666}${uptime}${color}
+  ${color 666666}UPTIME${color}  ${color 999999}${uptime}${color}
 
-  ${color 333333}HD${color}  ${color 666666}${fs_free /home} / ${fs_size /home}${color}
+  ${color 666666}HD${color}  ${color 999999}${fs_free /home} / ${fs_size /home}${color}
 
-  ${color 333333}RAM${color}  ${color 666666}${mem} / ${memmax}${color}
+  ${color 666666}RAM${color}  ${color 999999}${mem} / ${memmax}${color}
 
-  ${color 333333}CPU${color}   ${color 666666}${cpu cpu0}%${color}
+  ${color 666666}CPU${color}   ${color 999999}${cpu cpu0}%${color}
 
-  ${color 333333}VPN${color}   ${color 666666}OFF${color}
+  ${color 666666}VPN${color}   ${color 999999}OFF${color}
 ]];
