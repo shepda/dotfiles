@@ -22,7 +22,7 @@ conky.config = {
 };
 
 conky.text = [[
-  ${color 666666}IP${color}  ${color 999999}${execi 5 ~/Repos/dotfiles/.conky-scripts/ip-address.sh}${color}
+  ${color 666666}IP${color}  ${color 999999}${execi 5 ~/Repos/dotfiles/.conky-scripts/ip-address}${color}
 
   ${color 666666}UPTIME${color}  ${color 999999}${uptime}${color}
 
@@ -32,7 +32,7 @@ conky.text = [[
 
   ${color 666666}CPU${color}   ${color 999999}${cpu cpu0}%${color}
 
-  ${color 666666}VPN${color}   ${color 999999}${execi 5 ~/Repos/dotfiles/.conky-scripts/vpn-status.sh}${color}
+  ${color 666666}VPN${color}   ${color 999999}${execi 5 ~/Repos/dotfiles/.conky-scripts/vpn-status}${color}
 
-  ${color 666666}BINS${color}   ${color 999999}${execi 3 ~/Repos/dotfiles/.conky-scripts/bin-days.sh}${color}
+  ${color 666666}BINS${color}   ${color 999999}${execi 3 ~/Repos/dotfiles/.conky-scripts/bin-days}${color}
 ]];
