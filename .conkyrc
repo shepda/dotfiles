@@ -33,4 +33,6 @@ conky.text = [[
   ${color 666666}CPU${color}   ${color 999999}${cpu cpu0}%${color}
 
   ${color 666666}VPN${color}   ${color 999999}${execi 5 ~/Repos/dotfiles/.conky-scripts/vpn-status.sh}${color}
+
+  ${color 666666}BINS${color}   ${color 999999}${execi 3 ~/Repos/dotfiles/.conky-scripts/bin-days.sh}${color}
 ]];
