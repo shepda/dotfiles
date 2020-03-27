@@ -12,7 +12,6 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'scrooloose/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
-Plug 'liuchengxu/vim-clap', {'do': ':Clap install-binary!'}
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'pangloss/vim-javascript'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -68,10 +67,6 @@ set updatetime=100
 
 " Set NERDTree keybinding
 map <C-l> :NERDTreeToggle<CR>
-
-" Set vim-clap keybindings
-"map <C-p> :Clap files --hidden<CR>
-map <C-g> :Clap grep<CR>
 
 " Format json keybinding
 map <leader>jf :set ft=json \| %!python -m json.tool<CR>
