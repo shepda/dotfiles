@@ -97,6 +97,7 @@ source $ZSH/oh-my-zsh.sh
 alias vr="vim README.md"
 alias cf="cd /disks/Files"
 alias glon="glo --name-only"
+alias gwt="./gradlew test"
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.npm-global:$HOME/.npm-global/bin:$PATH"
 export RIPGREP_CONFIG_PATH="$HOME/.rgignore"
