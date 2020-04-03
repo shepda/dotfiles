@@ -16,6 +16,7 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'pangloss/vim-javascript'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jremmen/vim-ripgrep'
+Plug 'modille/groovy.vim'
 call plug#end()
 
 " Set syntax highlighting
