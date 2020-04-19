@@ -17,6 +17,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jremmen/vim-ripgrep'
 Plug 'modille/groovy.vim'
+Plug 'majutsushi/tagbar'
 call plug#end()
 
 " Set syntax highlighting
@@ -74,6 +75,8 @@ map <leader>jf :set ft=json \| %!python -m json.tool<CR>
 
 " Set vim-ripgrep keybinding
 map <leader>f :Rg<CR>
+
+nmap <F8> :TagbarToggle<CR>
 
 " Set lightline options
 let g:lightline={'colorscheme': 'iceberg', 'active': {'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified']]}, 'component_function': {'gitbranch': 'gitbranch#name'}}
