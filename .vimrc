@@ -9,7 +9,6 @@ Plug 'neoclide/coc-eslint'
 Plug 'neoclide/coc-tsserver'
 Plug 'scrooloose/nerdtree'
 Plug 'xuyuanp/nerdtree-git-plugin'
-Plug 'scrooloose/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
@@ -18,6 +17,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jremmen/vim-ripgrep'
 Plug 'modille/groovy.vim'
 Plug 'majutsushi/tagbar'
+Plug 'preservim/nerdcommenter'
 call plug#end()
 
 " Set syntax highlighting
@@ -95,3 +95,6 @@ let &titlestring=split(expand('%:p:h'), '/')[-1] . " - Vim"
 
 " Set ctrlp ignore files
 let g:ctrlp_custom_ignore='node_modules'
+
+" Set nerdcommenter spaces after comment delimiters
+let g:NERDSpaceDelims=1
