@@ -16,7 +16,6 @@ Plug 'pangloss/vim-javascript'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jremmen/vim-ripgrep'
 Plug 'modille/groovy.vim'
-Plug 'majutsushi/tagbar'
 Plug 'preservim/nerdcommenter'
 call plug#end()
 
