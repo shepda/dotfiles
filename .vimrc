@@ -79,7 +79,7 @@ map <leader>f :Rg<CR>
 nmap <F4> :set hlsearch! hlsearch?<CR>
 
 " Set lightline options
-let g:lightline={'colorscheme': 'iceberg', 'active': {'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified']]}, 'component_function': {'gitbranch': 'gitbranch#name'}}
+let g:lightline={'colorscheme': 'seoul256', 'active': {'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified']]}, 'component_function': {'gitbranch': 'gitbranch#name'}}
 
 " Set better-whitespace defaults
 let g:strip_whitespace_on_save=1
