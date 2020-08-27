@@ -75,9 +75,6 @@ map <leader>jf :set ft=json \| %!python -m json.tool<CR>
 " Set vim-ripgrep keybinding
 map <leader>f :Rg<CR>
 
-" Set tagbar keybinding
-nmap <F8> :TagbarToggle<CR>
-
 " Set highlight search keybinding
 nmap <F4> :set hlsearch! hlsearch?<CR>
 
