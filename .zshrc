@@ -100,6 +100,8 @@ alias glon="glo --name-only"
 alias gwt="./gradlew test"
 alias gwts="./gradlew test --tests"
 alias vpn="sudo openvpn --config"
+alias pvpnc="sudo protonpvn c"
+alias pvpnd="sudo protonpvn d"
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.npm-global:$HOME/.npm-global/bin:/usr/bin/docker-credential-ecr-login:$PATH"
 export RIPGREP_CONFIG_PATH="$HOME/.rgignore"
