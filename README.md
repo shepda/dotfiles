@@ -43,3 +43,9 @@ Off
 ln -s ~/Repos/dotfiles/.vim ~/.vim
 ln -s ~/Repos/dotfiles/.vimrc ~/.vimrc
 ```
+
+## Zsh
+
+```
+ln -s ~/Repos/dotfiles/.zshrc ~/.zshrc
+```
