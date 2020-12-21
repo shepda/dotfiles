@@ -37,6 +37,12 @@ White: #ffffff
 Off
 ```
 
+## Ripgrep
+
+```
+ln -s ~/Repos/dotfiles/.rgignore ~/.rgignore
+```
+
 ## Vim
 
 ```
