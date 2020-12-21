@@ -36,3 +36,10 @@ White: #ffffff
 ```
 Off
 ```
+
+## Vim
+
+```
+ln -s ~/Repos/dotfiles/.vim ~/.vim
+ln -s ~/Repos/dotfiles/.vimrc ~/.vimrc
+```
