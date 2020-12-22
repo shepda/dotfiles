@@ -1,5 +1,11 @@
 # dotfiles
 
+## Albert
+
+```
+ln -s ~/Repos/dotfiles/.config/albert/albert.conf ~/.config/albert/albert.conf
+```
+
 ## Gnome Terminal
 
 ### Text and background colour
@@ -35,12 +41,6 @@ White: #ffffff
 
 ```
 Off
-```
-
-## Albert
-
-```
-ln -s ~/Repos/dotfiles/.config/albert/albert.conf ~/.config/albert/albert.conf
 ```
 
 ## Ripgrep
