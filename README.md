@@ -37,6 +37,12 @@ White: #ffffff
 Off
 ```
 
+## Albert
+
+```
+ln -s ~/Repos/dotfiles/.config/albert/albert.conf ~/.config/albert/albert.conf
+```
+
 ## Ripgrep
 
 ```
