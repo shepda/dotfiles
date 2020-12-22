@@ -50,6 +50,13 @@ ln -s ~/Repos/dotfiles/.vim ~/.vim
 ln -s ~/Repos/dotfiles/.vimrc ~/.vimrc
 ```
 
+## VSCodium
+
+```
+ln -s ~/Repos/dotfiles/.config/VSCodium/User/keybindings.json ~/.config/VSCodium/User/keybindings.json
+ln -s ~/Repos/dotfiles/.config/VSCodium/User/settings.json ~/.config/VSCodium/User/settings.json
+```
+
 ## Zsh
 
 ```
