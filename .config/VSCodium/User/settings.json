@@ -1,5 +1,5 @@
 {
-  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.minimap.enabled": false,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -17,9 +17,6 @@
   "telemetry.enableCrashReporter": false,
   "terminal.external.osxExec": "iTerm.app",
   "terminal.external.linuxExec": "terminal",
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "statusBar.background": "#333333"
   },
@@ -34,5 +31,8 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
-  }
+  },
+  // "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
