@@ -111,7 +111,7 @@ alias e="exa -la"
 alias c="vscodium"
 alias nrc="npm run commit"
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.npm-global:$HOME/.npm-global/bin:/usr/bin/docker-credential-ecr-login:$PATH"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.npm-global:$HOME/.npm-global/bin:$PATH"
 export RIPGREP_CONFIG_PATH="$HOME/.rgignore"
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
