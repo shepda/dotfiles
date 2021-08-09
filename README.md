@@ -43,6 +43,11 @@ White: #ffffff
 Off
 ```
 
+## Powerlevel10k
+```
+ln -s ~/Repos/dotfiles/.p10k.zsh ~/.p10K.zsh
+```
+
 ## Ripgrep
 
 ```
