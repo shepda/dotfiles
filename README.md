@@ -54,6 +54,15 @@ ln -s ~/Repos/dotfiles/.p10k.zsh ~/.p10K.zsh
 ln -s ~/Repos/dotfiles/.rgignore ~/.rgignore
 ```
 
+## Systemd Timers
+
+```
+ln -s ~/Repos/dotfiles/.config/systemd/user/backup-daily.service ~/.config/systemd/user/backup-daily.service
+ln -s ~/Repos/dotfiles/.config/systemd/user/backup-daily.timer ~/.config/systemd/user/backup-daily.timer
+ln -s ~/Repos/dotfiles/.config/systemd/user/backup-databases.service ~/.config/systemd/user/backup-databases.service
+ln -s ~/Repos/dotfiles/.config/systemd/user/backup-databases.timer ~/.config/systemd/user/backup-databases.timer
+```
+
 ## Vim
 
 ```
