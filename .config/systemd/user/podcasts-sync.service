@@ -1,0 +1,7 @@
+[Unit]
+Description=Sync podcasts
+
+[Service]
+Type=oneshot
+ExecStart=/disks/Files/Scripts/podcast/sync.sh
+
