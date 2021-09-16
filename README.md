@@ -43,7 +43,14 @@ White: #ffffff
 Off
 ```
 
+## Greg
+
+```
+ln -s ~/Repos/dotfiles/.config/greg/greg.conf ~/.config/greg/greg.conf
+```
+
 ## Powerlevel10k
+
 ```
 ln -s ~/Repos/dotfiles/.p10k.zsh ~/.p10K.zsh
 ```
@@ -61,6 +68,8 @@ ln -s ~/Repos/dotfiles/.config/systemd/user/backup-daily.service ~/.config/syste
 ln -s ~/Repos/dotfiles/.config/systemd/user/backup-daily.timer ~/.config/systemd/user/backup-daily.timer
 ln -s ~/Repos/dotfiles/.config/systemd/user/backup-databases.service ~/.config/systemd/user/backup-databases.service
 ln -s ~/Repos/dotfiles/.config/systemd/user/backup-databases.timer ~/.config/systemd/user/backup-databases.timer
+ln -s ~/Repos/dotfiles/.config/systemd/user/podcasts-sync.service ~/.config/systemd/user/podcasts-sync.service
+ln -s ~/Repos/dotfiles/.config/systemd/user/podcasts-sync.timer ~/.config/systemd/user/podcasts-sync.timer
 ```
 
 ## Vim
