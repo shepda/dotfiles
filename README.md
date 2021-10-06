@@ -1,5 +1,11 @@
 # dotfiles
 
+## Alacritty
+
+```
+ln -s ~/Repos/dotfiles/.config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+```
+
 ## Albert
 
 ```
