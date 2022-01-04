@@ -14,6 +14,15 @@ ln -s ~/Repos/dotfiles/.config/albert/albert.conf ~/.config/albert/albert.conf
 
 ## Gnome Terminal
 
+### Text appearance
+
+### Initial terminal size
+
+```
+239 columns
+55 rows
+```
+
 ### Text and background colour
 
 #### Built-in schemes
