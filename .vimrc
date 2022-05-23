@@ -15,7 +15,6 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'pangloss/vim-javascript'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jremmen/vim-ripgrep'
-Plug 'modille/groovy.vim'
 Plug 'preservim/nerdcommenter'
 Plug 'tpope/vim-fugitive'
 call plug#end()
