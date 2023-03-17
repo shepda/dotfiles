@@ -1,5 +1,4 @@
 {
-  "diffEditor.ignoreTrimWhitespace": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
@@ -34,5 +33,11 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "window.newWindowDimensions": "maximized"
+  "window.newWindowDimensions": "maximized",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "search.quickOpen.includeHistory": false,
+  "diffEditor.maxComputationTime": 0,
+  "[njk]": {
+    "editor.defaultFormatter": "eseom.nunjucks-template"
+  }
 }

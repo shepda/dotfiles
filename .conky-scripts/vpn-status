@@ -1,6 +1,0 @@
-#!/bin/sh
-
-VPN_STATUS=$(ip route show | grep tun0)
-
-[ -z "$VPN_STATUS" ] && echo "Off" || echo "On"
-

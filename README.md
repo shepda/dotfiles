@@ -1,17 +1,5 @@
 # dotfiles
 
-## Alacritty
-
-```
-ln -s ~/Repos/dotfiles/.config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
-```
-
-## Albert
-
-```
-ln -s ~/Repos/dotfiles/.config/albert/albert.conf ~/.config/albert/albert.conf
-```
-
 ## Gnome Terminal
 
 ### Text appearance
@@ -58,12 +46,6 @@ White: #ffffff
 Off
 ```
 
-## Greg
-
-```
-ln -s ~/Repos/dotfiles/.config/greg/greg.conf ~/.config/greg/greg.conf
-```
-
 ## Powerlevel10k
 
 ```
@@ -76,17 +58,6 @@ ln -s ~/Repos/dotfiles/.p10k.zsh ~/.p10K.zsh
 ln -s ~/Repos/dotfiles/.rgignore ~/.rgignore
 ```
 
-## Systemd Timers
-
-```
-ln -s ~/Repos/dotfiles/.config/systemd/user/backup-daily.service ~/.config/systemd/user/backup-daily.service
-ln -s ~/Repos/dotfiles/.config/systemd/user/backup-daily.timer ~/.config/systemd/user/backup-daily.timer
-ln -s ~/Repos/dotfiles/.config/systemd/user/backup-databases.service ~/.config/systemd/user/backup-databases.service
-ln -s ~/Repos/dotfiles/.config/systemd/user/backup-databases.timer ~/.config/systemd/user/backup-databases.timer
-ln -s ~/Repos/dotfiles/.config/systemd/user/podcasts-sync.service ~/.config/systemd/user/podcasts-sync.service
-ln -s ~/Repos/dotfiles/.config/systemd/user/podcasts-sync.timer ~/.config/systemd/user/podcasts-sync.timer
-```
-
 ## Vim
 
 ```
@@ -97,8 +68,13 @@ ln -s ~/Repos/dotfiles/.vimrc ~/.vimrc
 ## VSCodium
 
 ```
+# AUR
 ln -s ~/Repos/dotfiles/.config/VSCodium/User/keybindings.json ~/.config/VSCodium/User/keybindings.json
 ln -s ~/Repos/dotfiles/.config/VSCodium/User/settings.json ~/.config/VSCodium/User/settings.json
+
+# Flatpak
+ln -s ~/Repos/dotfiles/.config/VSCodium/User/keybindings.json ~/.var/app/com.vscodium.codium/config/VSCodium/User/keybindings.json
+ln -s ~/Repos/dotfiles/.config/VSCodium/User/settings.json ~/.var/app/com.vscodium.codium/config/VSCodium/User/settings.json
 ```
 
 ## Zsh
