@@ -75,11 +75,11 @@ ln -s ~/Repos/dotfiles/.vimrc ~/.vimrc
 ## VSCodium
 
 ```
-# RPM
+// RPM
 ln -s ~/Repos/dotfiles/.config/VSCodium/User/keybindings.json ~/.config/VSCodium/User/keybindings.json
 ln -s ~/Repos/dotfiles/.config/VSCodium/User/settings.json ~/.config/VSCodium/User/settings.json
 
-# Flatpak
+// Flatpak
 ln -s ~/Repos/dotfiles/.config/VSCodium/User/keybindings.json ~/.var/app/com.vscodium.codium/config/VSCodium/User/keybindings.json
 ln -s ~/Repos/dotfiles/.config/VSCodium/User/settings.json ~/.var/app/com.vscodium.codium/config/VSCodium/User/settings.json
 ```
