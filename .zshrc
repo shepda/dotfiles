@@ -109,7 +109,7 @@ alias nrc="npm run commit"
 alias dsa="sudo systemctl start docker"
 alias dso="sudo systemctl stop docker"
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.npm-global:$HOME/.npm-global/bin:$PATH"
+export PATH="$HOME/.npm-global:$HOME/.npm-global/bin:$PATH"
 export RIPGREP_CONFIG_PATH="$HOME/.rgignore"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
