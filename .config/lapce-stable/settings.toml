@@ -26,6 +26,8 @@ font-size = 13
 "lapce.tab.inactive.background" = "#303031"
 "panel.background" = "#303031"
 "panel.hovered.background" = "#252526"
+"source_control.removed" = "#5f0000"
+"source_control.added" = "#005f00"
 
 [editor]
 show-tab = true
