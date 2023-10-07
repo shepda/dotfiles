@@ -46,6 +46,13 @@ White: #ffffff
 Off
 ```
 
+## Lapce
+
+```
+ln -s ~/Repos/dotfiles/.config/lapce-stable/keymaps.toml ~/.config/lapce-stable/keymaps.toml
+ln -s ~/Repos/dotfiles/.config/lapce-stable/settings.toml ~/.config/lapce-stable/settings.toml
+```
+
 ## Powerlevel10k
 
 ```

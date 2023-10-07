@@ -1,0 +1,33 @@
+
+[core]
+custom-titlebar = false
+modal = false
+icon-theme = "Material Icons"
+color-theme = "Dark+"
+
+[ui]
+font-family = ""
+font-size = 13
+
+[color-theme]
+
+[color-theme.ui]
+"completion.current" = ""
+"lapce.tab.active.background" = "#252526"
+"status.background" = "#252526"
+"activity.current" = ""
+"panel.current.background" = "#252526"
+"lapce.remote.local" = "#4078F2"
+"lapce.inactive_tab" = "#2d2d2d"
+"editor.drag_drop_background" = "#79c1fc55"
+"editor.sticky_header_background" = "$black"
+"lapce.button.primary.foreground" = "$black"
+"lapce.tab.active.foreground" = "$white"
+"lapce.tab.inactive.background" = "#303031"
+"panel.background" = "#303031"
+"panel.hovered.background" = "#252526"
+
+[editor]
+show-tab = true
+show-bread-crumbs = true
+font-family = "Source Code Pro"
