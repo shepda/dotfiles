@@ -98,3 +98,6 @@ let g:NERDSpaceDelims=1
 
 " Set NERDTree default width
 let NERDTreeWinSize = 50
+
+" Show hidden files in NERDTree
+let NERDTreeShowHidden = 1
