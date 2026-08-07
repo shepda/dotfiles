@@ -1,0 +1,44 @@
+// Empty
+[
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "cursorMove",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "nextBlankLine",
+      "by": "wrappedLine"
+    }
+  },
+  {
+    "key": "ctrl+up",
+    "command": "cursorMove",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "prevBlankLine",
+      "by": "wrappedLine"
+    }
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "continue.focusContinueInputWithoutClear"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "-continue.focusContinueInputWithoutClear"
+  }
+]

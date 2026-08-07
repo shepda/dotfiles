@@ -1,0 +1,51 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "onWindowChange",
+  "files.defaultLanguage": "markdown",
+  "files.trimTrailingWhitespace": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "telemetry.telemetryLevel": "off",
+  "terminal.external.linuxExec": "terminal",
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "breadcrumbs.enabled": false,
+  "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+  "window.menuBarVisibility": "toggle",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.newWindowDimensions": "maximized",
+  "search.quickOpen.includeHistory": false,
+  "diffEditor.maxComputationTime": 0,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.typegen.ts",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts, ${capture}.typegen.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+    "*.mts": "${capture}.typegen.ts",
+    "*.cts": "${capture}.typegen.ts"
+  },
+  "editor.renderWhitespace": "none",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.stickyScroll.enabled": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "window.titleBarStyle": "native",
+  "terminal.integrated.defaultProfile.linux": "zsh"
+}

@@ -1,0 +1,22 @@
+name: Local Assistant
+version: 1.0.0
+schema: v1
+models:
+  - name: Gemma3
+    provider: openai
+    model: gemma3:12b
+    env:
+      useLegacyCompletionsEndpoint: false
+    apiBase: ${{secrets.OPEN_WEBUI_API_BASE_URL}}
+    apiKey: ${{secrets.OPEN_WEBUI_API_KEY}}
+    roles:
+      - chat
+      - edit
+context:
+  - provider: code
+  - provider: docs
+  - provider: diff
+  - provider: terminal
+  - provider: problems
+  - provider: folder
+  - provider: codebase
