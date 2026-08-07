@@ -1,5 +1,9 @@
 # dotfiles
 
+## Eza
+
+https://github.com/eza-community/eza
+
 ## Diff so Fancy
 
 https://github.com/so-fancy/diff-so-fancy
