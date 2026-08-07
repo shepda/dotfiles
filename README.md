@@ -67,32 +67,6 @@ In Vim run:
 :PlugInstall
 ```
 
-## VSCodium
-
-https://vscodium.com
-
-```
-ln -s ~/Repos/dotfiles/.config/VSCodium/User/keybindings.json ~/.config/VSCodium/User/keybindings.json
-ln -s ~/Repos/dotfiles/.config/VSCodium/User/settings.json ~/.config/VSCodium/User/settings.json
-ln -s ~/Repos/dotfiles/.config/VSCodium/User/snippet.code-snippets ~/.config/VSCodium/User/snippet.code-snippets
-```
-
-### Default Extensions
-
-- [Back & Forth](https://open-vsx.org/extension/nick-rudenko/back-n-forth)
-- [Continue](https://open-vsx.org/extension/Continue/continue)
-
-  Add the following config to use Continue with a local LLM through [Open WebUI](https://openwebui.com).
-
-  ```
-  ln -s ~/Repos/dotfiles/.continue/config.yaml ~/.continue/config.yaml
-  ```
-
-  Copy `.env.example` to `~/.continue/.env` and fill with appropriate values.
-
-- [ESLint](https://open-vsx.org/extension/dbaeumer/vscode-eslint)
-- [Prettier](https://open-vsx.org/extension/esbenp/prettier-vscode)
-
 ## Zed
 
 https://zed.dev
