@@ -59,6 +59,8 @@ https://www.vim.org
 ```
 ln -s ~/Repos/dotfiles/.vim ~/.vim
 ln -s ~/Repos/dotfiles/.vimrc ~/.vimrc
+
+git config --global core.editor "vim"
 ```
 
 In Vim run:
