@@ -97,6 +97,7 @@ source $ZSH/oh-my-zsh.sh
 alias vr="vim README.md"
 alias glon="glo --name-only"
 alias e="eza -la"
+alias oc="opencode"
 
 export PATH="$HOME/.npm-global:$HOME/.npm-global/bin:$PATH"
 export RIPGREP_CONFIG_PATH="$HOME/.rgignore"
