@@ -37,6 +37,9 @@
   "terminal": {
     "flexible": false,
     "dock": "right",
+    "shell": {
+      "program": "zsh",
+    },
   },
   "ui_font_size": 16.5,
   "buffer_font_size": 13.5,
