@@ -100,6 +100,10 @@ alias e="eza -la"
 alias oc="opencode"
 
 export PATH="$HOME/.npm-global:$HOME/.npm-global/bin:$PATH"
+
+# opencode
+export PATH="$HOME/.opencode/bin:$PATH"
+
 export RIPGREP_CONFIG_PATH="$HOME/.rgignore"
 export GPG_TTY=$(tty)
 
