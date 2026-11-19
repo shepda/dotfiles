@@ -96,7 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vr="vim README.md"
 alias glon="glo --name-only"
-alias e="eza -la"
+alias e="LC_COLLATE=C ls -la --group-directories-first"
 alias oc="opencode"
 
 export PATH="$HOME/.npm-global:$HOME/.npm-global/bin:$PATH"
