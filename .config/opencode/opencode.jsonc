@@ -23,5 +23,8 @@
       }
     }
   },
-  "username": "David"
+  "username": "David",
+  "experimental": {
+    "disable_paste_summary": true
+  }
 }
