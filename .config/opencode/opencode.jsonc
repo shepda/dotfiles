@@ -13,6 +13,12 @@
         },
         "gemma4:31b": {
           "name": "Gemma4:31b"
+        },
+        "qwen3.6:35b": {
+          "name": "Qwen3.6:35b"
+        },
+        "qwen3.8:27b": {
+          "name": "Qwen3.8:27b"
         }
       }
     }
