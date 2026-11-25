@@ -1,2 +1,2 @@
---glob
-!.git
+.git
+node_modules

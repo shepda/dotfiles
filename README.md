@@ -41,6 +41,7 @@ ln -s ~/Repos/dotfiles/.config/opencode/opencode.jsonc ~/.config/opencode/openco
 https://github.com/BurntSushi/ripgrep
 
 ```
+ln -s ~/Repos/dotfiles/.ripgreprc ~/.ripgreprc
 ln -s ~/Repos/dotfiles/.rgignore ~/.rgignore
 ```
 

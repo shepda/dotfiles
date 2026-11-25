@@ -104,7 +104,7 @@ export PATH="$HOME/.npm-global:$HOME/.npm-global/bin:$PATH"
 # opencode
 export PATH="$HOME/.opencode/bin:$PATH"
 
-export RIPGREP_CONFIG_PATH="$HOME/.rgignore"
+export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
 export GPG_TTY=$(tty)
 
 eval "$(starship init zsh)"
